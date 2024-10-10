@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <h1 class="fade-in">Welcome to My Portfolio</h1>
+        <p class="slide-up">Web Developer  |  Designer  |  Problem Solver</p>
+    </header>
+  <section id="about" class="content-section">
+    <h2>About Me</h2>
+    <p>I am a passionate web developer with experience in building responsive and interactive websites using
+        HTML, CSS, and JavaScript. I enjoy creating web solutions that solve real-world problems.</p>
+  </section>
+   <img src="image/img1.jpg" alt="developer image">
+   <!-- <img src="image/img.jpg" alt="developer image"> -->
+   <section id="projects" class="content-section"> <h2>My Projects</h2>
+      <div class="project-card zoom-in">
+        <h3>Project 1</h3>
+        <p>A responsive e-commerce website built with HTML, CSS, JavaScript.</p>
+      </div>
+      <div class="project-card zoom-in">
+        <h3>Project 2</h3>
+        <p>An interactive portfolio website featuring animations and modern design.</p>
+      </div>
+      <div class="project-card zoom-in">
+        <h3>Project 3</h3>
+        <p>A JavaScript-based game that allows users to test their reflexes.</p>
+      </div>
+   </section>
+    <section id="contact" class="content-section">
+        <h2>Contact Me</h2>
+        <p>Have a project in mind? feel free to reach out!</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Your full name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="abc@gmail.com">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required placeholder="Write your message"></textarea>
+            <button type="submit" class="fade-in">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p class="fade-in">&copy; 2024 My Portfolio. All Rights Reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
