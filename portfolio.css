@@ -37,6 +37,7 @@ img{
     margin: 15px;
     background-color: white;
     border: 1px solid red;
+    border-radius: 10px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     transition: transform 0.3s ease-in-out;
@@ -45,6 +46,26 @@ img{
 }
 .project-card:hover {
     transform: scale(1.05);
+}
+#whatsapp { 
+    display: block;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    background-color: aquamarine;
+    color:yellowgreen;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    animation: zoomIN 1s ease-in-out;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration-line: none;
+}
+#whatsapp:hover {
+    color:#ff9800;
+    text-transform: uppercase;
+    background-color: #ffd700;
+
 }
 footer p {
     background-color:greenyellow;
