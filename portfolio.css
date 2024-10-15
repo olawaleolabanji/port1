@@ -23,8 +23,9 @@ header p{
     animation: slideUp 2s ease-in-out;
 }
 .content-section{
-    padding: 50px;
+    padding: 30px;
     text-align: center;
+    font-size: 1.2rem;
 }
 img{
   width: 100%;
@@ -47,7 +48,7 @@ img{
 }
 footer p {
     background-color:greenyellow;
-    color: white;
+    color: rgb(249, 4, 4);
     text-align: center;
     padding: 20px;
     position: relative;
